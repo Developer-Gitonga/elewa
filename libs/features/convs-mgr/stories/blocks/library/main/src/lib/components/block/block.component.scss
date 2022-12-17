@@ -43,14 +43,18 @@
     cursor: pointer;
 }
 
+.fa-pencil{
+    padding-right: 10px;
+}
+
 .fa-clone {
     padding-right: 10px;
 }
 
-.fa-clone, .fa-trash-alt {
+.fa-clone, .fa-trash-alt, .fa-pencil {
     color: var(--convs-mgr-color-medium-shade);
 }
 
-.fa-clone:hover, .fa-trash-alt:hover {
+.fa-clone:hover, .fa-trash-alt:hover, fa-pencil:hover {
     color: var(--convs-mgr-color-primary-purple);
 }
